@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Download script
+# Download this script for use with Mac M1 Processor ONLY
 # curl -O https://raw.githubusercontent.com/woz-u/DS-Student-Resources/main/DS101-Basic-Statistics/Installation/M1-Homebrew-install.sh
 
 # change permissions so script is executable
@@ -28,6 +28,11 @@ brew install --cask github
 #install Python3
 echo "installing python3"
 brew install python@3.9
+
+#symlink python to python3 location
+#echo "symlink python to python3"
+#ls -l /usr/local/bin/python*
+#ln -s -f /usr/local/bin/python3 /usr/local/bin/python
 
 #set python/pip from python2 to python3
 echo "setting python and pip in .bashrc"
@@ -79,10 +84,10 @@ brew services start mysql
 echo "installing mongosh"
 brew install mongosh
 
-# todo: install mongo
-# brew tap mongodb/brew
-# brew install mongodb-community@4.2
-# brew services start mongodb-community@4.2
+#install mongo
+brew tap mongodb/brew
+brew install mongodb-community
+brew services start mongodb-community
 
 #install vscode
 echo "installing vscode"
@@ -117,27 +122,25 @@ echo "installing Julia"
 echo "if Julia didn't install it's because it's not ready M1 chipset yet"
 brew install julia
 
+#install node
+echo "installing node"
+brew install node
+
+#install AWS Command Line Interface
+echo "installing awscli"
+brew install awscli
+
 #sudo change owner for Jupyter lab to run
 sudo chown -R $(whoami) /Users/$USER/Library/Jupyter
 
-# Install R kernelspec
-# change directory to the R folder
-# echo "changing directory to R folder"
-# cd /Library/Frameworks/R.framework/Versions/4.1
-# echo "ensure you're in the right directory"
-# pwd
-
-# curl a.r
-#echo "curl a.r from github"
-#curl -O https://github.com/Wildertrek/Jupyter-Latex/blob/master/install_scripts/a.r
-
-# Start R terminal
-#echo "R Terminal start and run script"
-#Rscript a.r
-
+#run brew list
+brew list
 
 echo "*******************************************************************"
 echo "Congratulations! Main Data Science applications have been installed"
+echo "Check the brew list above to ensure all applications are installed"
+echo "github, git, python, r, rstudio, jupyterlab, mysqlworkbench, mysql,"
+echo "vscode, tableau-public, speedtest-cli, gpower, wget"
 echo "*******************************************************************"
 echo ""
 echo "install R kernelspec for jupyter lab next by following these instructions:"
@@ -162,7 +165,7 @@ echo "IRkernel::installspec(user = TRUE)"
 echo ""
 echo "Exit out of your R terminal by typing q()"
 echo ""
-echo "Next install Julia kernel into Jupyter"
+echo "Next install Julia kernel into Jupyter if Julia is now available for M1 Mac"
 echo ""
 echo "Open the Julia Command-Line by typing the following line:"
 echo ""
@@ -190,7 +193,9 @@ echo "Wait a minute or so for the installation to complete"
 echo ""
 echo "Exit out of Julia terminal by typing CTRL-D"
 echo ""
-echo "Now in a new terminal (not Julia)test jupyter lab run test by running the command below:"
+echo "Now in a new terminal (not Julia)test jupyter lab run test by running the commands below:"
+echo ""
+echo "pip install ds-students"
 echo ""
 echo "jupyter lab"
 echo ""

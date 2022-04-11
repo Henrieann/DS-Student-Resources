@@ -23,21 +23,21 @@
 
 - Online students are required to have a late model laptop or desktop computer with internet access.  
 
-- Minimum: PC (Windows) or Mac (Big Sur or newer) laptop. 8GB ram, 512GB HD, Intel Core i5,  AMD Ryzen 5, or Apple Intel or M1 Chipsets.
+- Minimum: PC (Windows 10/11) or Mac (Big Sur or Monterey) laptop. 8GB ram, 512GB HD, Intel Core i5,  AMD Ryzen 5, or Apple Intel or M1 Chipsets.
 
-- Recommended: PC (Windows) or Mac laptop(Big Sur or newer). 16GB ram, 1TB SSD, Intel Core i7, AMD Ryzen 7, or Apple M1/M1 Pro Chipsets.
+- Recommended: PC (Windows 10/11) or Mac laptop(Big Sur or Monterey). 16GB ram, 1TB SSD, Intel Core i7, AMD Ryzen 7, or Apple M1/M1 Pro Chipsets.
 
-- Professionals: PC (Windows) or Mac(Big Sur or newer). 32-64 GB ram, 2-8TB SSD, Intel Core i9, AMD Ryzen 9/Threadripper, or Apple M1 Max Chipsets.
+- Professionals: PC (Windows 10/11) or Mac(Big Sur or Monterey). 32-64 GB ram, 2-8TB SSD, Intel Core i9, AMD Ryzen 9/Threadripper, or Apple M1 Max Chipsets.
 
 - It is a requirement that you are able to download programming resources to your laptop/desktop for this class. (This means you need a steady internet high bandwidth connection.)
 
 - You are required to have a quiet place to study and to be able to focus on the material.
 
-- You are required to have uninterrupted weekly 1:1 video meetings with your mentor.
+- **You are required to have uninterrupted weekly 1:1 video meetings with your mentor.**
 
-- You are required to log into the Learning Management System (LMS) daily for at least 20 minutes.
+- **You are required to log into the Learning Management System (LMS) daily for at least 20 minutes.**
 
-- Please follow and review each lesson page by page coding examples provided as this will ensure you have a full understanding for your final hands-on assignments.
+- Please follow and review each lesson's coding examples as provided. This will ensure you have a full understanding of concepts needed for your final hands-on assignment.
 
 
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));"/>
@@ -46,16 +46,16 @@
 
 |Module                 |Lesson Number|Lesson Name|
 |:---                   |:---:        |:---       |
-|DS101 Basic Statistics |1   | [Introduction to Data Science](DS101L1.ipynb) |
-|                       |2   | [Probability  ](DS101L2.ipynb)                |
-|                       |3   | [Variable Types ](DS101L3.ipynb)              |
-|                       |4   | [Common Descriptive Statistics](DS101L4.ipynb)|
-|                       |5   | [The Normal Distribution](DS101L5.ipynb)      |
-|                       |6   | [Statistical Inference](DS101L6.ipynb)        | 
-|                       |7   | [Uniform, Binomial, Student’s T, and F-Distribution](DS101L7.ipynb)|
-|                       |8   | [Other Common Distributions](DS101L8.ipynb)| 
-|                       |9   | [High Level Data Exploration](DS101L9.ipynb)| 
-|                       |10  | [Concept Mastery Exam]()| 
+|DS101 Basic Statistics |1   | [Introduction to Data Science](DS101-L1-Introduction-to-Data-Science.ipynb) |
+|                       |2   | [Probability  ](DS101-L2-Probability.ipynb)                |
+|                       |3   | [Variable Types ](DS101-L3-Variable-Types.ipynb)              |
+|                       |4   | [Common Descriptive Statistics](DS101-L4-Common-Descriptive-Statistics.ipynb)|
+|                       |5   | [The Normal Distribution](DS101-L5-Normal-Distribution.ipynb)      |
+|                       |6   | [Statistical Inference](DS101-L6-Statistical-Inference.ipynb)        | 
+|                       |7   | [Uniform, Binomial, Student’s T, and F-Distribution](DS101-L7-Uniform-Binomial-StudentT-F-Distribution.ipynb)|
+|                       |8   | [Other Common Distributions](DS101-L8-Other-Common-Distributions.ipynb)| 
+|                       |9   | [High Level Data Exploration](DS101-L9-High-Level-Data-Exploration.ipynb)| 
+|                       |10  | [Concept Mastery Exam](DS101L10-Skills-Mastery-Exam.ipynb)| 
 
 
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));"/>
@@ -111,32 +111,28 @@ Upon successful completion of this program, students will be able to:
 
 |Exam |Points|
 |:--- |:---  |	
-|L1|24|
-|L2|24|
-|L3|26|
-|L4|20|
+|L1|20|
+|L2|20|
+|L3|20|
+|L4|10|
 |L5|20|
-|L6|16|
-|L7|22|
-|L8|30|
-|L9|28|
-|Final|56|
+|L6|20|
+|L7|20|
+|L8|10|
+|L9|20|
+|Final|40|
 
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));"/>
 
 ## Points Total:
 
 |Type  | Points  |
-|:--- |:--- |	
-|Professionalism, Attendance and Class Participation*: |14 points (5%)| 
-|Exam/Quiz Average: |L1-9 Exam total points: 210 (75%) |
-|Projects/Competencies/Research: |Final total points: 56 (20%)| 
-|Total points: |280 (100%)|
+|:--- |:--- |	 
+|Exam/Quiz Average: |L1-9 Exam total points: 160 (80%) |
+|Concept Mastery Exam: |Final total points: 40 (20%)| 
+|Total points: |200 (100%)|
 
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));"/>
 
-## Final Project:
-
-- Concept mastery exam
 
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));"/>

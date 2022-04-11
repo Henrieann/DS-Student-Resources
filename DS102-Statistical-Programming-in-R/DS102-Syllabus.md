@@ -23,11 +23,11 @@
 
 - Online students are required to have a late model laptop or desktop computer with internet access.  
 
-- Minimum: PC (Windows) or Mac (Big Sur or newer) laptop. 8GB ram, 512GB HD, Intel Core i5,  AMD Ryzen 5, or Apple Intel or M1 Chipsets.
+- Minimum: PC (Windows 10/11) or Mac (Big Sur or Monterey) laptop. 8GB ram, 512GB HD, Intel Core i5,  AMD Ryzen 5, or Apple Intel or M1 Chipsets.
 
-- Recommended: PC (Windows) or Mac laptop(Big Sur or newer). 16GB ram, 1TB SSD, Intel Core i7, AMD Ryzen 7, or Apple M1/M1 Pro Chipsets.
+- Recommended: PC (Windows 10/11) or Mac laptop(Big Sur or Monterey). 16GB ram, 1TB SSD, Intel Core i7, AMD Ryzen 7, or Apple M1/M1 Pro Chipsets.
 
-- Professionals: PC (Windows) or Mac(Big Sur or newer). 32-64 GB ram, 2-8TB SSD, Intel Core i9, AMD Ryzen 9/Threadripper, or Apple M1 Max Chipsets.
+- Professionals: PC (Windows 10/11) or Mac(Big Sur or Monterey). 32-64 GB ram, 2-8TB SSD, Intel Core i9, AMD Ryzen 9/Threadripper, or Apple M1 Max Chipsets.
 
 - It is a requirement that you are able to download programming resources to your laptop/desktop for this class. (This means you need a steady internet high bandwidth connection.)
 
@@ -45,16 +45,16 @@
 
 |Module                 |Lesson Number|Lesson Name|
 |:---                   |:---:        |:---       |
-|DS102 Statistical Programming in R |1   | [Thinking Like a Programmer ](DS102L1.ipynb)  |
-|                       |2   | [Introduction to R ](DS102L2.ipynb)                |
-|                       |3   | [Variables, Functions, and For Loops ](DS102L3.ipynb)              |
-|                       |4   | [Vectors and Sample Statistics ](DS102L4.ipynb)|
-|                       |5   | [Statistical Plots ](DS102L5.ipynb)      |
-|                       |6   | [Data Frames ](DS102L6.ipynb)        | 
-|                       |7   | [t-Tests ](DS102L7.ipynb)       |
-|                       |8   | [Linear Regression ](DS102L8.ipynb)   | 
-|                       |9   | [Data Exploration ](DS102L9.ipynb)  | 
-|                       |10  | [Final Project ](DS102L10.ipynb)         | 
+|DS102 Statistical Programming in R |1   | [Thinking Like a Programmer ](DS102-L1-Thinking-Like-a-Programmer.ipynb)  |
+|                       |2   | [Introduction to R ](DS102-L2-Intro-to-R.ipynb)                |
+|                       |3   | [Variables, Functions, and For Loops ](DS102-L3-Variables-Functions-and-For-Loops.ipynb)              |
+|                       |4   | [Vectors and Sample Statistics ](DS102-L4-Vectors-and-Sample-Statistics.ipynb)|
+|                       |5   | [Statistical Plots ](DS102-L5-Statistical-Plots.ipynb)      |
+|                       |6   | [Data Frames ](DS102-L6-Data-Frames.ipynb)        | 
+|                       |7   | [t-Tests ](DS102-L7-t-tests.ipynb)       |
+|                       |8   | [Linear Regression ](DS102-L8-Linear-Regression.ipynb)   | 
+|                       |9   | [Data Exploration ](DS102-L9-Data-Exploration.ipynb)  | 
+|                       |10  | [Final Project ](DS102L10-Final-Project.ipynb)         | 
 
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));"/>
 

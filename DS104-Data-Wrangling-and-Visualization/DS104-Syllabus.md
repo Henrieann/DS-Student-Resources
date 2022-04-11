@@ -24,11 +24,11 @@ Course Description: The Data Visualization course is designed to help students u
 
 - Online students are required to have a late model laptop or desktop computer with internet access.  
 
-- Minimum: PC (Windows) or Mac (Big Sur or newer) laptop. 8GB ram, 512GB HD, Intel Core i5,  AMD Ryzen 5, or Apple Intel or M1 Chipsets.
+- Minimum: PC (Windows 10/11) or Mac (Big Sur or Monterey) laptop. 8GB ram, 512GB HD, Intel Core i5,  AMD Ryzen 5, or Apple Intel or M1 Chipsets.
 
-- Recommended: PC (Windows) or Mac laptop(Big Sur or newer). 16GB ram, 1TB SSD, Intel Core i7, AMD Ryzen 7, or Apple M1/M1 Pro Chipsets.
+- Recommended: PC (Windows 10/11) or Mac laptop(Big Sur or Monterey). 16GB ram, 1TB SSD, Intel Core i7, AMD Ryzen 7, or Apple M1/M1 Pro Chipsets.
 
-- Professionals: PC (Windows) or Mac(Big Sur or newer). 32-64 GB ram, 2-8TB SSD, Intel Core i9, AMD Ryzen 9/Threadripper, or Apple M1 Max Chipsets.
+- Professionals: PC (Windows 10/11) or Mac(Big Sur or Monterey). 32-64 GB ram, 2-8TB SSD, Intel Core i9, AMD Ryzen 9/Threadripper, or Apple M1 Max Chipsets.
 
 - It is a requirement that you are able to download programming resources to your laptop/desktop for this class. (This means you need a steady internet high bandwidth connection.)
 
@@ -46,16 +46,16 @@ Course Description: The Data Visualization course is designed to help students u
 
 |Module                 |Lesson Number|Lesson Name|
 |:---                   |:---:        |:---       |
-|DS104 Data Wrangling and Visualization  |1   | [Manipulating Columns and Rows ](DS104L1.ipynb)  |
-|                       |2   | [Data Transformations ](DS104L2.ipynb)                |
-|                       |3   | [Recoding Data ](DS104L3.ipynb)              |
-|                       |4   | [Displaying Quantitative Data ](DS104L4.ipynb)|
-|                       |5   | [Displaying Qualitative Data ](DS104L5.ipynb)      |
-|                       |6   | [Tableau ](DS104L6.ipynb)        | 
-|                       |7   | [Infographics ](DS104L7.ipynb)       |
-|                       |8   | [More Complex Visualizations ](DS104L8.ipynb)   | 
-|                       |9   | [Choosing Appropriate Statistical Analyses ](DS104L9.ipynb)  | 
-|                       |10  | [Final Project ](DS104L10.ipynb)         | 
+|DS104 Data Wrangling and Visualization  |1   | [Manipulating Columns and Rows ](DS104-L1-Manipulating-Columns-Rows.ipynb)  |
+|                       |2   | [Data Transformations ](DS104-L2-Data-Transform.ipynb)                |
+|                       |3   | [Recoding Data ](DS104-L3-Missing-Incorrect-Data-Types.ipynb)              |
+|                       |4   | [Displaying Quantitative Data ](DS104-L4-Displaying-Quantitative-Data.ipynb)|
+|                       |5   | [Displaying Qualitative Data ](DS104-L5-Displaying-Qualitative-Data.ipynb)      |
+|                       |6   | [Tableau ](DS104-L6-Tableau.ipynb)        | 
+|                       |7   | [Infographics ](DS104-L7-Infographics.ipynb)       |
+|                       |8   | [More Complex Visualizations ](DS104-L8-Complex-Visualizations.ipynb)   | 
+|                       |9   | [Choosing Appropriate Statistical Analyses ](DS104-L9-Choosing-Appropriate-Statistical-Analyses.ipynb)  | 
+|                       |10  | [Final Project ](DS104L10-Final-Project.ipynb)         | 
 
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));"/>
 

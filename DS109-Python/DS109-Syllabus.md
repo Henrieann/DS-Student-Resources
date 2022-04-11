@@ -68,16 +68,16 @@ Week 3
 
 |Module                 |Lesson Number|Lesson Name|
 |:---                   |:---:        |:---       |
-|DS109 Programming Foundations in Python  |1   | [Introduction to Python](DS109L1.ipynb)  |
-|                       |2   | [Performing Operations in Python](DS109L2.ipynb)                |
-|                       |3   | [Lists and Loops ](DS109L3.ipynb)              |
-|                       |4   | [Dictionaries ](DS109L4.ipynb)|
-|                       |5   | [Functions](DS109L5.ipynb)      |
-|                       |6   | [Object-Oriented Programming](DS109L6.ipynb)        | 
-|                       |7   | [Standard Library](DS109L7.ipynb)       |
-|                       |8   | [Python for Data Science](DS109L8.ipynb)   | 
-|                       |9   | [NumPy](DS109L9.ipynb)  | 
-|                       |10  | [Final Project ](DS109L10.ipynb)         |
+|DS109 Programming Foundations in Python  |1   | [Introduction to Python](DS109-L1-Introduction-to-Python.ipynb)  |
+|                       |2   | [Performing Operations in Python](DS109-L2-Operations-in-Python.ipynb)                |
+|                       |3   | [Lists and Loops ](DS109-L3-Lists-and-Looping.ipynb)              |
+|                       |4   | [Dictionaries ](DS109-L4-Dictionaries.ipynb)|
+|                       |5   | [Functions](DS109-L5-Functions.ipynb)      |
+|                       |6   | [Object-Oriented Programming](DS109-L6-Classes.ipynb)        | 
+|                       |7   | [Standard Library](DS109-L7-Modules.ipynb)       |
+|                       |8   | [Python for Data Science](DS109-L8-Python-for-Data-Science.ipynb)   | 
+|                       |9   | [NumPy](DS109-L9-Matrix-Operations.ipynb)  | 
+|                       |10  | [Final Project ](DS109L10-Python-Final-Project.ipynb)         |
 
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));"/>
 
@@ -86,11 +86,11 @@ Week 3
 
 - Online students are required to have a late model laptop or desktop computer with internet access.  
 
-- Minimum: PC (Windows) or Mac (Big Sur or newer) laptop. 8GB ram, 512GB HD, Intel Core i5,  AMD Ryzen 5, or Apple Intel or M1 Chipsets.
+- Minimum: PC (Windows 10/11) or Mac (Big Sur or Monterey) laptop. 8GB ram, 512GB HD, Intel Core i5,  AMD Ryzen 5, or Apple Intel or M1 Chipsets.
 
-- Recommended: PC (Windows) or Mac laptop(Big Sur or newer). 16GB ram, 1TB SSD, Intel Core i7, AMD Ryzen 7, or Apple M1/M1 Pro Chipsets.
+- Recommended: PC (Windows 10/11) or Mac laptop(Big Sur or Monterey). 16GB ram, 1TB SSD, Intel Core i7, AMD Ryzen 7, or Apple M1/M1 Pro Chipsets.
 
-- Professionals: PC (Windows) or Mac(Big Sur or newer). 32-64 GB ram, 2-8TB SSD, Intel Core i9, AMD Ryzen 9/Threadripper, or Apple M1 Max Chipsets.
+- Professionals: PC (Windows 10/11) or Mac(Big Sur or Monterey). 32-64 GB ram, 2-8TB SSD, Intel Core i9, AMD Ryzen 9/Threadripper, or Apple M1 Max Chipsets.
 
 - It is a requirement that you are able to download programming resources to your laptop/desktop for this class. (This means you need a steady internet high bandwidth connection.)
 

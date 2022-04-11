@@ -23,11 +23,11 @@
 
 - Online students are required to have a late model laptop or desktop computer with internet access.  
 
-- Minimum: PC (Windows) or Mac (Big Sur or newer) laptop. 8GB ram, 512GB HD, Intel Core i5,  AMD Ryzen 5, or Apple Intel or M1 Chipsets.
+- Minimum: PC (Windows 10/11) or Mac (Big Sur or Monterey) laptop. 8GB ram, 512GB HD, Intel Core i5,  AMD Ryzen 5, or Apple Intel or M1 Chipsets.
 
-- Recommended: PC (Windows) or Mac laptop(Big Sur or newer). 16GB ram, 1TB SSD, Intel Core i7, AMD Ryzen 7, or Apple M1/M1 Pro Chipsets.
+- Recommended: PC (Windows 10/11) or Mac laptop(Big Sur or Monterey). 16GB ram, 1TB SSD, Intel Core i7, AMD Ryzen 7, or Apple M1/M1 Pro Chipsets.
 
-- Professionals: PC (Windows) or Mac(Big Sur or newer). 32-64 GB ram, 2-8TB SSD, Intel Core i9, AMD Ryzen 9/Threadripper, or Apple M1 Max Chipsets.
+- Professionals: PC (Windows 10/11) or Mac(Big Sur or Monterey). 32-64 GB ram, 2-8TB SSD, Intel Core i9, AMD Ryzen 9/Threadripper, or Apple M1 Max Chipsets.
 
 - It is a requirement that you are able to download programming resources to your laptop/desktop for this class. (This means you need a steady internet high bandwidth connection.)
 
@@ -45,12 +45,12 @@
 
 |Module                 |Lesson Number|Lesson Name|
 |:---                   |:---:        |:---       |
-|DS110 Final Group Project |1   | [Group Project Week 1  Project Planning](DS110L1.ipynb)  |
-|                       |2   | [Group Project Week 2 Data Wrangling](DS110L2.ipynb)                |
-|                       |3   | [Group Project Week 3 Exploratory Analysis](DS110L3.ipynb)              |
-|                       |4   | [Group Project Week 4 Analyze Data](DS110L4.ipynb)|
-|                       |5   | [Group Project Week 5 Data Visualization and Reporting](DS110L5.ipynb)      |
-|                       |6   | [Group Project Week 6 Presentation Preparation](DS110L6.ipynb)        |  
+|DS110 Final Group Project |1   | [Group Project Week 1  Project Planning](DS110-L1-W1-Project-Planning.ipynb)  |
+|                       |2   | [Group Project Week 2 Data Wrangling](DS110-L2-W2-Data-Wrangling.ipynb)                |
+|                       |3   | [Group Project Week 3 Exploratory Analysis](DS110-L3-W3-Exploratory-Analysis.ipynb)              |
+|                       |4   | [Group Project Week 4 Analyze Data](DS110-L4-W4-Analyze-Data.ipynb)|
+|                       |5   | [Group Project Week 5 Data Visualization and Reporting](DS110-L5-W5-Data-Viz-and-Reporting.ipynb)      |
+|                       |6   | [Group Project Week 6 Presentation Preparation](DS110-L6-W6-Presentation.ipynb)        |  
 
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));"/>
 

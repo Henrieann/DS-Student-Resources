@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# Download script
-# curl -O https://raw.githubusercontent.com/woz-u/DS-Student-Resources/main/DS101-Basic-Statistics/Installation/Homebrew_install.sh
+# Download this script for use with Mac i86 Processor ONLY
+# curl -O https://raw.githubusercontent.com/woz-u/DS-Student-Resources/main/DS101-Basic-Statistics/Installation/i86-Homebrew-install.sh
 
 # change permissions so script is executable
-echo "chmod 755 Homebrew_install.sh"
+echo "chmod 755 i86-Homebrew-install.sh"
 
 echo "run command below: "
-echo "./Homebrew_install.sh"
+echo "./i86-Homebrew-install.sh"
 
 #install homebrew
 echo "installing homebrew please enter your password when asked"
@@ -21,13 +21,18 @@ brew install --cask github
 echo "installing python3"
 brew install python@3.9
 
+#symlink python to python3 location
+echo "symlink python to python3"
+ls -l /usr/local/bin/python*
+ln -s -f /usr/local/bin/python3 /usr/local/bin/python
+
 #set python/pip from python2 to python3
-echo "setting python and pip in .bashrc"
-echo "alias python=/usr/local/bin/python3" >> ~/.bashrc
-echo "alias pip=/usr/local/bin/pip3" >> ~/.bashrc
-echo "setting python and pip in .zshrc"
-echo "alias python=/usr/local/bin/python3" >> ~/.zshrc
-echo "alias pip=/usr/local/bin/pip3" >> ~/.zshrc
+#echo "setting python and pip in .bashrc"
+#echo "alias python=/usr/local/bin/python3" >> ~/.bashrc
+#echo "alias pip=/usr/local/bin/pip3" >> ~/.bashrc
+#echo "setting python and pip in .zshrc"
+#echo "alias python=/usr/local/bin/python3" >> ~/.zshrc
+#echo "alias pip=/usr/local/bin/pip3" >> ~/.zshrc
 
 #install r
 echo "installing R App"
@@ -61,10 +66,10 @@ brew services start mysql
 echo "installing mongosh"
 brew install mongosh
 
-# todo: install mongo
-# brew tap mongodb/brew
-# brew install mongodb-community@4.2
-# brew services start mongodb-community@4.2
+#install mongo
+brew tap mongodb/brew
+brew install mongodb-community
+brew services start mongodb-community
 
 #install vscode
 echo "installing vscode"
@@ -96,27 +101,34 @@ brew install wget
 
 #install julia
 echo "installing Julia"
-echo "if Julia didn't install it's because it's not ready M1 chipset yet"
 brew install julia
 
-# Install R kernelspec
-# change directory to the R folder
-# echo "changing directory to R folder"
-# cd /Library/Frameworks/R.framework/Versions/4.1
-# echo "ensure you're in the right directory"
-# pwd
+#install node
+echo "installing node"
+brew install node
 
-# curl a.r
-#echo "curl a.r from github"
-#curl -O https://github.com/Wildertrek/Jupyter-Latex/blob/master/install_scripts/a.r
+#install AWS Command Line Interface
+echo "installing awscli"
+brew install awscli
 
-# Start R terminal
-#echo "R Terminal start and run script"
-#Rscript a.r
+#install ds-students
+pip install ds-students
 
+#upgrade pip
+pip install --upgrade pip
+
+#ensuring jupyterlab installs all it needs
+pip install jupyterlab
+
+#run brew list to get a list of applications installed
+brew list
+brew services list
 
 echo "*******************************************************************"
 echo "Congratulations! Main Data Science applications have been installed"
+echo "Check the brew list above to ensure all applications are installed"
+echo "github, git, python, r, rstudio, jupyterlab, mysqlworkbench, mysql,"
+echo "vscode, tableau-public, speedtest-cli, gpower, wget, julia"
 echo "*******************************************************************"
 echo ""
 echo "install R kernelspec for jupyter lab next by following these instructions:"
